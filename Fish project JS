@@ -19,18 +19,20 @@
     // eye
     fill(33, 33, 33);
     ellipse(centerX+bodyLength/4, centerY, bodyHeight/5, bodyHeight/5);
+    
+    var randomColor = function () {return color(Math.random()*256, Math.random()*256, Math.random()*256)}
 };
 background (59, 123, 128);
- drawFish(187, 244, color (237, 33, 237), -30, 28);        
- drawFish(91, 69, color (168, 13, 168), 120, 60);        
- drawFish(314, 250, color (45, 224, 81), 75, 46);        
- drawFish(304, 345, color (225, 232, 14), -59, 90);        
- drawFish(62,300, color (201, 8, 63), -80, 83);
+ drawFish(187, 244, randomColor(), -30, 28);        
+ drawFish(91, 69, randomColor(), 120, 60);        
+ drawFish(314, 250, randomColor()), 75, 46);        
+ drawFish(304, 345, randomColor(), -59, 90);        
+ drawFish(62,300, randomColor(), -80, 83);
 
- drawFish(194,300, color (35, 15, 189), 90, 45); 
- drawFish(80,172, color (19, 237, 245), 135, 172); 
- drawFish(278,164, color (214, 55, 95), 57, 57);
- drawFish(279,23, color (115, 230, 21), 90, 45); 
- drawFish(300,68, color (136, 128, 194), -89, 57);    
+ drawFish(194,300, randomColor(), 90, 45); 
+ drawFish(80,172, randomColor(), 135, 172); 
+ drawFish(278,164, randomColor(), 57, 57);
+ drawFish(279,23, randomColor(), 90, 45); 
+ drawFish(300,68, randomColor(), -89, 57);    
 
 
